@@ -67,7 +67,7 @@ jobs:
         if: always()
         uses: 19871010/Weixin-Messenger-Action@master
         with:
-           corpid: ${{ secrets.CORPID }}
-           agentid: ${{ secrets.AGENTID }}
-           agentsecret: ${{ secrets.AGENTSECRET }}
-           content: workdir/games.info
+           CORPID: ${{ secrets.CORPID }}
+           AGENTID: ${{ secrets.AGENTID }}
+           AGENTSECRET: ${{ secrets.AGENTSECRET }}
+           CONTENT: workdir/games.info
