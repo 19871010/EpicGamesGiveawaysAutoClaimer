@@ -71,3 +71,4 @@ jobs:
            AGENTID: ${{ secrets.AGENTID }}
            AGENTSECRET: ${{ secrets.AGENTSECRET }}
            CONTENT: cat workdir/games.info
+
