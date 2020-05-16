@@ -70,5 +70,5 @@ jobs:
            CORPID: ${{ secrets.CORPID }}
            AGENTID: ${{ secrets.AGENTID }}
            AGENTSECRET: ${{ secrets.AGENTSECRET }}
-           CONTENT: "领取游戏"
+           CONTENT: cat games.info
 
