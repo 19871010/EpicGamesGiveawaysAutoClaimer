@@ -71,4 +71,3 @@ jobs:
            AGENTID: ${{ secrets.AGENTID }}
            AGENTSECRET: ${{ secrets.AGENTSECRET }}
            CONTENT: cat games.info
-
