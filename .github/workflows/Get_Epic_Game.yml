@@ -70,4 +70,4 @@ jobs:
            CORPID: ${{ secrets.CORPID }}
            AGENTID: ${{ secrets.AGENTID }}
            AGENTSECRET: ${{ secrets.AGENTSECRET }}
-           CONTENT: workdir/games.info
+           CONTENT: cat workdir/games.info
